@@ -38,9 +38,12 @@ Este script é ideal para configurar dispositivos que utilizam modos ou níveis,
 2. Certifique-se de que os switches `exemplo_1`, `exemplo_2` e `exemplo_3` estão corretamente configurados e conectados ao sistema.
 3. Use os comandos de ligar, desligar e alterar modos para controlar o ventilador.
 
+
+## Atenção
+- Sempre faça um backup antes de realizar alterações ou reiniciar o Home Assistant.
+- Corrija qualquer erro indicado pelo validador antes de reiniciar o sistema.
+
 ## Passos para adicionar ao Home Assistant
-
-
 1. No diretório do Home Assistant, navegue até a pasta onde deseja salvar o arquivo. Normalmente, fica em `/config/`.
 2. Crie um arquivo chamado `fan_ventilador_quarto.yaml`.
 
@@ -117,12 +120,20 @@ fans:
    fan: !include fan_ventilador_quarto.yaml
    ```
 
+- Salve as alterações no arquivo `configuration.yaml`.
+
 ## Observação
 Após realizar as alterações, não se esqueça de verificar o arquivo `configuration.yaml` para garantir que não haja erros de formatação. Você pode usar o validador de configuração do próprio Home Assistant antes de reiniciar.
 
 
+### Use o validador de configuração do Home Assistant:
+- Acesse o painel de controle do Home Assistant.
+- Vá até **Ferramentas de desenvolvedor** > **YAML** > **Verificar configuração**.
+- Clique em "Verificar configuração". O Home Assistant verificará se há problemas de formatação ou configuração no arquivo `configuration.yaml`.
+
+
 ## Reinicie o Home Assistant
-1. Salve as alterações no arquivo `configuration.yaml`.
+1. Apois fazer a verificação nao ter achando nem um error
 2. Reinicie o Home Assistant para aplicar as mudanças.
 
 ## Teste o Ventilador
@@ -131,24 +142,7 @@ Após realizar as alterações, não se esqueça de verificar o arquivo `configu
 3. Teste as funcionalidades de ligar, desligar e alternar modos (alto, médio e baixo).
 
 
-
-
-
-
-
-
-
-
-## Verificando o arquivo `configuration.yaml`
-
-### Use o validador de configuração do Home Assistant:
-- Acesse o painel de controle do Home Assistant.
-- Vá até **Ferramentas de desenvolvedor** > **YAML** > **Verificar configuração**.
-- Clique em "Verificar configuração". O Home Assistant verificará se há problemas de formatação ou configuração no arquivo `configuration.yaml`.
-
 ## Observação:
 - Sempre faça um backup do arquivo `configuration.yaml` antes de realizar alterações ou reiniciar o Home Assistant.
 - Corrija qualquer erro indicado pelo validador antes de reiniciar o sistema.
-
-Se precisar de mais dicas ou ajuda com o YAML, é só dizer! 😊
 

@@ -1,12 +1,42 @@
-Emparelhar Tomadas (modelo)
-Este script realiza o emparelhamento de dois switches para que o estado de um seja automaticamente replicado no outro. Ele funciona como um "paralelo virtual", ideal para sincronizar dispositivos em sistemas de automação.
+# **Repositório de Códigos para Home Assistant**
 
-Descrição
-Este modelo utiliza triggers para monitorar o estado dos switches e ações para alterar o estado do outro switch com base no evento capturado.
+Bem-vindo ao nosso repositório dedicado a automações, scripts e integrações para o **Home Assistant**. Este repositório foi criado para compartilhar soluções e exemplos que ajudam a aprimorar a sua experiência de automação residencial.
 
-Estrutura
-Alias: Nome da automação para facilitar sua identificação.
+---
 
-Triggers: Define os dispositivos que irão disparar a automação ao terem seus estados alterados. No exemplo, switch.exemplo_1 e switch.exemplo_2.
+## **Sobre o Repositório**
 
-Ações: Utiliza uma lógica condicional baseada no switch que disparou o trigger (trigger.entity_id) para alterar o estado do outro switch.
+Este repositório reúne códigos variados, incluindo:
+- Automações personalizadas.
+- Scripts otimizados.
+- Soluções para integrações complexas.
+- Exemplos práticos para iniciantes e avançados.
+
+Nosso objetivo é simplificar sua jornada no Home Assistant, oferecendo ferramentas úteis e bem documentadas.
+
+---
+
+## **Conteúdo**
+
+### **Estrutura**
+- Cada projeto possui sua própria pasta com os seguintes arquivos:
+  - `automation.yaml`: Arquivo de automações.
+  - `script.yaml`: Arquivo de scripts personalizados.
+  - `README.md`: Documentação detalhada de cada solução.
+
+### **Categorias**
+Os códigos estão organizados em categorias, como:
+- **Iluminação**: Controle e sincronização de luzes.
+- **Climatização**: Gerenciamento de ar-condicionado e aquecedores.
+- **Segurança**: Monitoramento de câmeras e sensores.
+- **Customização**: Scripts para personalizar sua configuração.
+
+---
+
+## **Como Usar**
+
+### **1. Clone o Repositório**
+Faça o download dos arquivos diretamente ou clone o repositório:
+
+```bash
+git clone https://github.com/seu-usuario/seu-repositorio-home-assistant.git

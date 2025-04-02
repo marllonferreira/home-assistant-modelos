@@ -18,11 +18,15 @@ Nosso objetivo é simplificar sua jornada no Home Assistant, oferecendo ferramen
 
 ## **Conteúdo**
 
+
 ### **Estrutura**
 - Cada projeto possui sua própria pasta com os seguintes arquivos:
   - `automation.yaml`: Arquivo de automações.
   - `script.yaml`: Arquivo de scripts personalizados.
   - `README.md`: Documentação detalhada de cada solução.
+  - [Paralelo Virtual Switch X Switch](./paralelo_virtual_switch_X_switch.md)
+  - [paralelo virtual_switch_X_script](./paralelo virtual_switch_X_script.md)
+
 
 ### **Categorias**
 Os códigos estão organizados em categorias, como:

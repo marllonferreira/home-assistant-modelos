@@ -44,4 +44,4 @@ Os códigos estão organizados em categorias, como:
 Faça o download dos arquivos diretamente ou clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio-home-assistant.git
+git clone https://github.com/marllonferreira/home-assistant-modelos.git

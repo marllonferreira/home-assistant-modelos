@@ -7,11 +7,11 @@ Ele funciona como um "paralelo virtual".
 Este modelo utiliza triggers para monitorar o estado dos switches e ações para alterar o estado do outro switch com base no evento capturado.
 
 # Estrutura
-### Alias: Nome da automação para facilitar sua identificação.
+**Alias**: Nome da automação para facilitar sua identificação.
 
-Triggers: Define os dispositivos que irão disparar a automação ao terem seus estados alterados. No exemplo, switch.exemplo_1 e switch.exemplo_2.
+**Triggers**: Define os dispositivos que irão disparar a automação ao terem seus estados alterados. No exemplo, switch.exemplo_1 e switch.exemplo_2.
 
-Ações: Utiliza uma lógica condicional baseada no switch que disparou o trigger (trigger.entity_id) para alterar o estado do outro switch.
+**actions**: Utiliza uma lógica condicional baseada no switch que disparou o trigger (trigger.entity_id) para alterar o estado do outro switch.
 
 # Funcionamento
 Quando o estado do switch.exemplo_1 muda, a automação altera o estado do switch.exemplo_2 para o mesmo valor.

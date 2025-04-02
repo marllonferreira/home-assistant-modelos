@@ -96,14 +96,30 @@ fans:
 
 2. Cole o código no arquivo `fan_ventilador_quarto.yaml`.
 
+## Partes que Devem Ser Alteradas
+
+1. **IDs dos Switches**:
+   -  `switch.exemplo_1`, `switch.exemplo_2` e `switch.exemplo_3` pelos nomes exatos dos switches configurados no seu Home Assistant.
+
+
+2. **Nome do Ventilador**:
+   - Personalize o `friendly_name` e o `unique_id` com um nome exclusivo e descritivo para o ventilador.
+   - Exemplo:
+     ```yaml
+     friendly_name: "Ventilador da Sala"
+     unique_id: "ventilador_sala"
+     ```
+
+
 ### Inclua o Arquivo no `configuration.yaml`
 1. Adicione uma referência ao arquivo no seu `configuration.yaml` com o seguinte comando:
    ```yaml
    fan: !include fan_ventilador_quarto.yaml
    ```
 
-## Verifique os Switches
-Certifique-se de que os switches `exemplo_1`, `exemplo_2` e `exemplo_3` estão corretamente configurados e funcionando.
+## Observação
+Após realizar as alterações, não se esqueça de verificar o arquivo `configuration.yaml` para garantir que não haja erros de formatação. Você pode usar o validador de configuração do próprio Home Assistant antes de reiniciar.
+
 
 ## Reinicie o Home Assistant
 1. Salve as alterações no arquivo `configuration.yaml`.
@@ -115,4 +131,24 @@ Certifique-se de que os switches `exemplo_1`, `exemplo_2` e `exemplo_3` estão c
 3. Teste as funcionalidades de ligar, desligar e alternar modos (alto, médio e baixo).
 
 
+
+
+
+
+
+
+
+
+## Verificando o arquivo `configuration.yaml`
+
+### Use o validador de configuração do Home Assistant:
+- Acesse o painel de controle do Home Assistant.
+- Vá até **Ferramentas de desenvolvedor** > **YAML** > **Verificar configuração**.
+- Clique em "Verificar configuração". O Home Assistant verificará se há problemas de formatação ou configuração no arquivo `configuration.yaml`.
+
+## Observação:
+- Sempre faça um backup do arquivo `configuration.yaml` antes de realizar alterações ou reiniciar o Home Assistant.
+- Corrija qualquer erro indicado pelo validador antes de reiniciar o sistema.
+
+Se precisar de mais dicas ou ajuda com o YAML, é só dizer! 😊
 

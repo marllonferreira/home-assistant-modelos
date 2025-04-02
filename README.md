@@ -24,8 +24,9 @@ Nosso objetivo é simplificar sua jornada no Home Assistant, oferecendo ferramen
   - `automation.yaml`: Arquivo de automações.
   - `script.yaml`: Arquivo de scripts personalizados.
   - `README.md`: Documentação detalhada de cada solução.
-  - [Paralelo Virtual Switch X Switch](./paralelo_virtual_switch_X_switch.md)
-  - [paralelo virtual switch X script](./paralelo_virtual_switch_X_script.md) : Documentação detalhada de cada solução.
+  - [Paralelo Virtual Switch X Switch](./paralelo_virtual_switch_X_switch.md) : Documentação detalhada de cada solução.
+  - [Paralelo virtual switch X script](./paralelo_virtual_switch_X_script.md) : Documentação detalhada de cada solução.
+  - [Ventilador pensonalizado](./ventilador_pensonalizado.md) : Documentação detalhada de cada solução.
 
 
 ### **Categorias**

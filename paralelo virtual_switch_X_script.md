@@ -63,29 +63,29 @@ actions:
               entity_id: script.seu_script_aqui
             action: script.turn_{{ trigger.to_state.state }}
 ```
-4. Ajuste os IDs das Entidades
-Substitua os placeholders no código (script.seu_script_aqui e switch.seu_switch_aqui) pelos IDs corretos das suas entidades.
+## 4. Ajuste os IDs das Entidades
+- Substitua os placeholders no código (script.seu_script_aqui e switch.seu_switch_aqui) pelos IDs corretos das suas entidades.
 
-Para encontrar os IDs:
+## Para encontrar os IDs:
 
-Vá em Configurações > Dispositivos e Serviços > Entidades.
+- Vá em Configurações > Dispositivos e Serviços > Entidades.
 
 Localize o ID da entidade que corresponde ao seu script e ao seu switch.
 
-5. Salve a Automação
-Após colar e ajustar o código, clique no botão Salvar.
+## 5. Salve a Automação
+- Após colar e ajustar o código, clique no botão Salvar.
 
-6. Ative a Automação
-Certifique-se de que a automação foi habilitada.
+## 6. Ative a Automação
+- Certifique-se de que a automação foi habilitada.
 
 No menu Automação e Cenas, verifique se o botão de ativação ao lado da sua automação está ligado.
 
-7. Teste a Automação
-Altere manualmente o estado do script ou do switch para verificar se o outro dispositivo está sendo sincronizado corretamente.
+## 7. Teste a Automação
+- Altere manualmente o estado do script ou do switch para verificar se o outro dispositivo está sendo sincronizado corretamente.
 
 Se a automação não funcionar como esperado:
 
 Confira os logs do sistema em Configurações > Logs para identificar possíveis erros.
 
-8. Aproveite a Automação!
+## 8. Aproveite a Automação!
 Agora, sua automação deve estar funcionando como esperado, permitindo o sincronismo entre o script e o switch de forma eficiente.

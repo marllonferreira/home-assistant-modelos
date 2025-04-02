@@ -20,6 +20,23 @@ Da mesma forma, quando o estado do switch.exemplo_2 muda, o estado do switch.exe
 
 A lógica condicional no campo entity_id garante que o switch apropriado seja atualizado com base no que originou o evento.
 
+# Guia: Como Usar o Código de Emparelhamento de Tomadas no Home Assistant
+
+Este passo a passo explica como configurar e usar o código YAML de emparelhamento de tomadas no Home Assistant.
+
+## Passo a Passo
+
+### 1. Acesse a Interface do Home Assistant
+- Certifique-se de que sua instância do Home Assistant está rodando e você tem acesso à interface de administração.
+
+### 2. Abra o Editor de Automação
+- No menu lateral, clique em **Configurações**.
+- Em seguida, vá para **Automação e Cenas**.
+- Clique em **Nova Automação** e depois em **Editar YAML** no canto superior direito (ou, dependendo da interface, você pode acessar diretamente o editor de YAML).
+
+### 3. Copie e Cole o Código
+- Insira o seguinte código no editor de YAML:
+
 
 ## Modelo de Código
 
@@ -42,8 +59,3 @@ actions:
     action: switch.turn_{{ trigger.to_state.state }}
 ```
 
-4. **Repositório**:
-   - Crie um repositório no GitHub.
-   - Faça upload do arquivo `.yaml` e do `README.md`.
-
-Dessa forma, outros usuários poderão visualizar, entender e utilizar sua automação com facilidade. Se precisar de mais assistência, é só pedir! 😊

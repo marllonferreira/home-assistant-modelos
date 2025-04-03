@@ -13,30 +13,29 @@ Este modelo realiza o emparelhamento entre um switch e um script, permitindo que
    - Se a mudança for no **script**, atualiza o estado do **switch**.
    - Se a mudança for no **switch**, atualiza o estado do **script**.
 
-# Como Adicionar a Automação ao Home Assistant
 
-Siga este guia passo a passo para configurar e adicionar o código YAML de automação no Home Assistant.
+## Adicionando a Automação no Home Assistant
 
----
+Existem algumas maneiras de adicionar essa automação ao seu Home Assistant. Abaixo estão os métodos mais comuns:
 
-## **1. Acesse o Home Assistant**
-- Certifique-se de que sua instância do Home Assistant está funcionando.
-- Faça login na interface administrativa.
+### Método 1: Usando a Interface Gráfica (UI)
 
----
+Este método é recomendado para a maioria dos usuários.
 
-## **2. Vá para o Editor de Automação**
-- No menu lateral, clique em **Configurações**.
-- Em seguida, selecione **Automação e Cenas**.
-- Clique no botão **Nova Automação**.
-- Na nova tela, clique em **Editar YAML**, no canto superior direito, para acessar o editor avançado.
+1.  **Navegue até a seção de Automações:**
+    * No menu lateral do seu Home Assistant, clique em **Configurações**.
+    * Dentro das configurações, clique em **Automações e Cenas**.
 
----
+2.  **Crie uma nova automação:**
+    * No canto inferior direito, clique no botão **"+"** (Adicionar Automação).
 
-## **3. Cole o Código YAML**
-- Copie o código de automação que deseja adicionar (substitua pelos IDs corretos, se necessário) e cole no editor de YAML.
+3.  **Mude para o modo YAML:**
+    * No canto superior direito da janela de criação de automação, clique nos três pontos ("...") e selecione **Editar em YAML**.
 
-### **Exemplo do Código**:
+4.  **Cole o código da automação:**
+    * Apague qualquer código que possa estar na janela do editor YAML.
+    * Cole o seguinte código:
+
 
 ```yaml
 alias: Emparelhar Script e Tomada_modelo

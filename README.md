@@ -17,7 +17,8 @@ Nosso objetivo é simplificar sua jornada no Home Assistant, oferecendo ferramen
 ---
 
 ## **Conteúdo**
-
+  - [Blueprints](https://github.com/marllonferreira/Blueprints) : Documentação detalhada de cada solução.
+  
   - [Paralelo Virtual Switch X Switch](./paralelo_virtual_switch_X_switch/paralelo_virtual_switch_X_switch.md) : Documentação detalhada de cada solução.
   - [Paralelo virtual switch X script](./paralelo_virtual_switch_X_script/paralelo_virtual_switch_X_script.md) : Documentação detalhada de cada solução.
   - [Ventilador pensonalizado](./ventilador_pensonalizado/ventilador_pensonalizado.md) : Documentação detalhada de cada solução.

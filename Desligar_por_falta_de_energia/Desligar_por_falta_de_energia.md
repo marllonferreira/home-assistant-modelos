@@ -172,5 +172,3 @@ mode: single # Garante que apenas uma instância desta automação seja executad
 * **Tempo de Desligamento:** Ajuste os tempos nos `delay` conforme a sua necessidade e a autonomia do seu nobreak.
 * **Entidades Monitoradas:** Escolha entidades que são essenciais e que *certamente* perderão a comunicação durante uma queda de energia. Evite dispositivos que possam ficar online por outros meios (ex: dispositivos com 4G de backup).
 * **Serviço `hassio.host_shutdown`:** Este serviço só está disponível em instalações do Home Assistant que incluem o Supervisor (como Home Assistant OS ou Home Assistant Supervised). Se você usa Home Assistant Container ou Core, precisará encontrar uma maneira diferente de desligar o host (geralmente via script externo ou integração específica).
-
-Este documento e o código fornecido estão disponíveis para uso e modificação sob uma licença de código aberto (por exemplo, MIT ou similar, se desejar especificar uma).
